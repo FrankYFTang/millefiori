@@ -135,11 +135,18 @@ int main() {
 
     std::cout << ret.toUTF8String<std::string>(utf8).c_str() << std::endl;
 
-    ::inflection::util::ULocale locale("es-MX");
-    auto model = ::inflection::dialog::LocalizedCommonConceptFactoryProvider::getDefaultCommonConceptFactoryProvider()->getCommonConceptFactory(locale)->getSemanticFeatureModel();
 
-    auto categories(::inflection::lang::features::LanguageGrammarFeatures::getLanguageGrammarFeatures(
-       locale).getCategories());
+    std::cout << "===============================================" << std::endl;
+    std::cout << "getKnownLanguages" << std::endl;
+    std::cout << "===============================================" << std::endl;
+for (const auto& locale : ::inflection::lang::features::LanguageGrammarFeatures::getKnownLanguages()) {
+    std::cout << "Locale = " << locale.getName() << std::endl;
+
+    auto grammarFeatures(::inflection::lang::features::LanguageGrammarFeatures::getLanguageGrammarFeatures(locale));
+    std::cout << "===============================================" << std::endl;
+    std::cout << "getCategories" << std::endl;
+    std::cout << "===============================================" << std::endl;
+    auto categories(grammarFeatures.getCategories());
     for (const auto& [categoryName, category] : categories) {
         utf8.clear();
         UnicodeString name(categoryName);
@@ -151,6 +158,34 @@ int main() {
         }
 
     }
+
+    std::cout << "===============================================" << std::endl;
+    std::cout << "getFeatures" << std::endl;
+    std::cout << "===============================================" << std::endl;
+    auto features(grammarFeatures.getFeatures());
+    for (const auto& feature : features) {
+        utf8.clear();
+        UnicodeString name(feature.getName());
+        std::cout << name.toUTF8String<std::string>(utf8).c_str() << std::endl;
+        for (const auto& value : feature.getValues()) {
+            utf8.clear();
+            UnicodeString value2(value.getValue());
+            std::cout << "    " << value2.toUTF8String<std::string>(utf8).c_str() << std::endl;
+            for (const auto& [k, v] : value.getConstraints()) {
+                UnicodeString kname(k);
+                UnicodeString vname(v);
+                kname.toUTF8String<std::string>(utf8);
+                utf8 += " -> ";
+                vname.toUTF8String<std::string>(utf8);
+                std::cout << "        " << utf8.c_str() << std::endl;
+                utf8.clear();
+            }
+        }
+    }
+
+//    auto model = ::inflection::dialog::LocalizedCommonConceptFactoryProvider::getDefaultCommonConceptFactoryProvider()->getCommonConceptFactory(locale)->getSemanticFeatureModel();
+
+}
 
     return 0;
 }
