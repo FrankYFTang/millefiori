@@ -29,3 +29,32 @@ build/inflection_headers/inflection/dialog/NumberConcept.hpp:class INFLECTION_CL
 build/inflection_headers/inflection/dialog/SemanticFeatureConceptBase.hpp:class INFLECTION_CLASS_API inflection::dialog::SemanticFeatureConceptBase
 build/inflection_headers/inflection/dialog/SemanticFeatureModel.hpp:class INFLECTION_CLASS_API inflection::dialog::SemanticFeatureModel final
 ```
+
+
+~/inflection/inflection$ find build/inflection_headers |egrep hpp|xargs egrep -s INFLECTION_CLASS_API|egrep -v "util|exception"|egrep :class|cut -d: -f 4-13|sort -u
+```
+dialog::CommonConceptFactory
+dialog::CommonConceptFactoryProvider
+dialog::DisplayValue
+dialog::InflectableStringConcept
+dialog::LocalizedCommonConceptFactoryProvider
+dialog::NumberConcept
+dialog::PronounConcept
+dialog::SemanticConcept
+dialog::SemanticConceptList
+dialog::SemanticFeature
+dialog::SemanticFeatureConceptBase
+dialog::SemanticFeatureModel_DisplayData
+dialog::SemanticFeatureModel final
+dialog::SemanticValue
+dialog::SpeakableConcept
+dialog::SpeakableString
+dictionary::DictionaryKeyIterator
+dictionary::DictionaryMetaData
+lang::features::LanguageGrammarFeatures
+lang::features::LanguageGrammarFeatures_Feature
+lang::features::LanguageGrammarFeatures_GrammarCategory
+lang::features::LanguageGrammarFeatures_GrammarFeatures
+Object {
+resources::DataRegistrationService final
+```
