@@ -6,8 +6,12 @@ CXX = g++
 # Compiler flags
 # -Wall: Enable all warnings
 # -g:  Include debugging information
-CXXFLAGS = -g -std=c++20 -I${ICU_ROOT}/source/common -I${ICU_ROOT}/source/i18n
-LDFLAGS = -L${ICU_ROOT}/source/lib -licui18n -licuuc -licudata
+CXXFLAGS = -g -std=c++20 \
+	   -I${ICU_ROOT}/source/common \
+	   -I${ICU_ROOT}/source/i18n \
+	   -I${INFLECTION_ROOT}/usr/local/include
+LDFLAGS = -L${ICU_ROOT}/source/lib -licui18n -licuuc -licudata \
+          -L${INFLECTION_ROOT}/usr/local/lib -linflection
 
 # Source file
 SRC = main.cpp

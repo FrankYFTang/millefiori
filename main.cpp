@@ -1,4 +1,9 @@
 #include <iostream>
+
+#include "inflection/dialog/LocalizedCommonConceptFactoryProvider.hpp"
+#include "inflection/lang/features/LanguageGrammarFeatures.hpp"
+#include "inflection/util/ULocale.hpp"
+
 #include "unicode/locid.h"
 #include "unicode/messageformat2.h"
 #include "unicode/messageformat2_function_registry.h"
@@ -129,6 +134,24 @@ int main() {
     std::string utf8;
 
     std::cout << ret.toUTF8String<std::string>(utf8).c_str() << std::endl;
+
+    ::inflection::util::ULocale locale("es-MX");
+    auto model = ::inflection::dialog::LocalizedCommonConceptFactoryProvider::getDefaultCommonConceptFactoryProvider()->getCommonConceptFactory(locale)->getSemanticFeatureModel();
+
+    auto categories(::inflection::lang::features::LanguageGrammarFeatures::getLanguageGrammarFeatures(
+       locale).getCategories());
+    for (const auto& [categoryName, category] : categories) {
+        utf8.clear();
+        UnicodeString name(categoryName);
+        std::cout << name.toUTF8String<std::string>(utf8).c_str() << std::endl;
+        for (const auto& value : category.getValues()) {
+            utf8.clear();
+            UnicodeString value2(value);
+            std::cout << "    " << value2.toUTF8String<std::string>(utf8).c_str() << std::endl;
+        }
+
+    }
+
     return 0;
 }
 
