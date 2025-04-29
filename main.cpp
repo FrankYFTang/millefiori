@@ -183,9 +183,9 @@ for (const auto& locale : ::inflection::lang::features::LanguageGrammarFeatures:
         }
     }
 
-//    auto model = ::inflection::dialog::LocalizedCommonConceptFactoryProvider::getDefaultCommonConceptFactoryProvider()->getCommonConceptFactory(locale)->getSemanticFeatureModel();
 
 }
+    auto model = ::inflection::dialog::LocalizedCommonConceptFactoryProvider::getDefaultCommonConceptFactoryProvider()->getCommonConceptFactory(inflection::util::ULocale("es-MX"))->getSemanticFeatureModel();
 
     return 0;
 }
