@@ -1,0 +1,3034 @@
+Cartea Mariei
+===============================================
+getKnownLanguages
+===============================================
+Locale = zh
+===============================================
+getCategories
+===============================================
+gender
+    feminine
+    masculine
+    neuter
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+measure
+speak
+Locale = yue
+===============================================
+getCategories
+===============================================
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+measure
+speak
+Locale = vi
+===============================================
+getCategories
+===============================================
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+measure
+speak
+Locale = uk
+===============================================
+getCategories
+===============================================
+animacy
+    animate
+    inanimate
+case
+    accusative
+    dative
+    genitive
+    instrumental
+    locative
+    nominative
+determination
+    dependent
+    independent
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adposition
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    possessive
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = tr
+===============================================
+getCategories
+===============================================
+case
+    ablative
+    accusative
+    dative
+    genitive
+    instrumental
+    locative
+    nominative
+copula
+    first
+    second
+    third
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronoun
+    plural
+    singular
+pronounNumber
+    plural
+    singular
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+deConjunction
+interrogativeArticle
+speak
+Locale = th
+===============================================
+getCategories
+===============================================
+animacy
+    human
+    nonhuman
+case
+    genitive
+    nominative
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+measure
+speak
+Locale = sv
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    genitive
+    nominative
+definiteness
+    definite
+    indefinite
+form
+    infinitive
+    participle
+    supine
+gender
+    common
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+type
+    compound
+    solo
+===============================================
+getFeatures
+===============================================
+defArticle
+    de
+    det
+    den
+indefArticle
+    ett
+    en
+    flera
+indefPron
+    någon
+    något
+    några
+interrogativeArticle
+    vilket
+    vilka
+    vilken
+negArticle
+    inget
+    ingen
+    inga
+newArticle
+    nytt
+    nya
+    ny
+otherArticle
+    annat
+    andra
+    annan
+possArticle
+    din
+    dina
+    ditt
+speak
+withIndefPron
+withInterrogativeArticle
+withNegArticle
+withNewArticle
+withOtherArticle
+withPossArticle
+Locale = sr
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    instrumental
+    locative
+    nominative
+    vocative
+emphasis
+    stressed
+    unstressed
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = sk
+===============================================
+getCategories
+===============================================
+animacy
+    animate
+    inanimate
+case
+    accusative
+    dative
+    genitive
+    instrumental
+    locative
+    nominative
+    vocative
+emphasis
+    stressed
+    unstressed
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adposition
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    possessive
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = ru
+===============================================
+getCategories
+===============================================
+animacy
+    animate
+    inanimate
+case
+    accusative
+    dative
+    genitive
+    instrumental
+    nominative
+    prepositional
+form
+    gerund
+    infinitive
+    participle
+gender
+    feminine
+    masculine
+    neuter
+mood
+    imperative
+    indicative
+number
+    plural
+    singular
+onomastic
+    family
+    given
+    organization
+    patronymic
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adposition
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    possessive
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+aboutPrep
+    о
+    об
+    обо
+inPrep
+    в
+    во
+speak
+toPrep
+    к
+    ко
+withAboutPrep
+withInPrep
+withPrep
+    с
+    со
+withToPrep
+withWithPrep
+Locale = ro
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+    vocative
+definiteness
+    definite
+    indefinite
+emphasis
+    stressed
+    unstressed
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = pt
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+    prepositional
+definiteness
+    definite
+    indefinite
+form
+    gerund
+    infinitive
+    participle
+gender
+    feminine
+    masculine
+mood
+    conditional
+    imperative
+    indicative
+    subjunctive
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+aPrepArticle
+    ao
+        aogender -> masculine
+        number -> singular
+    à
+        àgender -> feminine
+        number -> singular
+    aos
+        aosgender -> masculine
+        number -> plural
+    às
+        àsgender -> feminine
+        number -> plural
+    ao(à)
+        ao(à)number -> singular
+    aos(às)
+        aos(às)number -> plural
+dePrepArticle
+    do
+        dogender -> masculine
+        number -> singular
+    da
+        dagender -> feminine
+        number -> singular
+    dos
+        dosgender -> masculine
+        number -> plural
+    das
+        dasgender -> feminine
+        number -> plural
+    do(a)
+        do(a)number -> singular
+    dos(as)
+        dos(as)number -> plural
+    de
+defArticle
+    o
+        ogender -> masculine
+        number -> singular
+    a
+        agender -> feminine
+        number -> singular
+    os
+        osgender -> masculine
+        number -> plural
+    as
+        asgender -> feminine
+        number -> plural
+    o(a)
+        o(a)number -> singular
+    os(as)
+        os(as)number -> plural
+demAdj
+    este
+        estegender -> masculine
+        number -> singular
+    esta
+        estagender -> feminine
+        number -> singular
+    estes
+        estesgender -> masculine
+        number -> plural
+    estas
+        estasgender -> feminine
+        number -> plural
+    este(a)
+        este(a)number -> singular
+    estes(as)
+        estes(as)number -> plural
+emPrepArticle
+    no
+        nogender -> masculine
+        number -> singular
+    na
+        nagender -> feminine
+        number -> singular
+    nos
+        nosgender -> masculine
+        number -> plural
+    nas
+        nasgender -> feminine
+        number -> plural
+    no(a)
+        no(a)number -> singular
+    nos(as)
+        nos(as)number -> plural
+    em
+emPrepIndefArticle
+    num
+        numgender -> masculine
+        number -> singular
+    numa
+        numagender -> feminine
+        number -> singular
+    nuns
+        nunsgender -> masculine
+        number -> plural
+    numas
+        numasgender -> feminine
+        number -> plural
+    num(a)
+        num(a)number -> singular
+    nuns(as)
+        nuns(as)number -> plural
+    em
+inDemAdj
+    neste
+        nestegender -> masculine
+        number -> singular
+    nesta
+        nestagender -> feminine
+        number -> singular
+    nestes
+        nestesgender -> masculine
+        number -> plural
+    nestas
+        nestasgender -> feminine
+        number -> plural
+    neste(a)
+        neste(a)number -> singular
+    nestes(as)
+        nestes(as)number -> plural
+inThatDemAdj
+    naquele
+        naquelegender -> masculine
+        number -> singular
+    naquela
+        naquelagender -> feminine
+        number -> singular
+    naqueles
+        naquelesgender -> masculine
+        number -> plural
+    naquelas
+        naquelasgender -> feminine
+        number -> plural
+    naquele(a)
+        naquele(a)number -> singular
+    naqueles(as)
+        naqueles(as)number -> plural
+inThisDemAdj
+    nesse
+        nessegender -> masculine
+        number -> singular
+    nessa
+        nessagender -> feminine
+        number -> singular
+    nesses
+        nessesgender -> masculine
+        number -> plural
+    nessas
+        nessasgender -> feminine
+        number -> plural
+    nesse(a)
+        nesse(a)number -> singular
+    nesses(as)
+        nesses(as)number -> plural
+indefArticle
+    um
+        umgender -> masculine
+        number -> singular
+    uma
+        umagender -> feminine
+        number -> singular
+    uns
+        unsgender -> masculine
+        number -> plural
+    umas
+        umasgender -> feminine
+        number -> plural
+    um(a)
+        um(a)number -> singular
+    uns(umas)
+        uns(umas)number -> plural
+ofDemAdj
+    deste
+        destegender -> masculine
+        number -> singular
+    desta
+        destagender -> feminine
+        number -> singular
+    destes
+        destesgender -> masculine
+        number -> plural
+    destas
+        destasgender -> feminine
+        number -> plural
+    deste(a)
+        deste(a)number -> singular
+    destes(as)
+        destes(as)number -> plural
+ofThatDemAdj
+    daquele
+        daquelegender -> masculine
+        number -> singular
+    daquela
+        daquelagender -> feminine
+        number -> singular
+    daqueles
+        daquelesgender -> masculine
+        number -> plural
+    daquelas
+        daquelasgender -> feminine
+        number -> plural
+    daquele(a)
+        daquele(a)number -> singular
+    daqueles(as)
+        daqueles(as)number -> plural
+ofThisDemAdj
+    desse
+        dessegender -> masculine
+        number -> singular
+    dessa
+        dessagender -> feminine
+        number -> singular
+    desses
+        dessesgender -> masculine
+        number -> plural
+    dessas
+        dessasgender -> feminine
+        number -> plural
+    desse(a)
+        desse(a)number -> singular
+    desses(as)
+        desses(as)number -> plural
+porPrepArticle
+    pelo
+        pelogender -> masculine
+        number -> singular
+    pela
+        pelagender -> feminine
+        number -> singular
+    pelos
+        pelosgender -> masculine
+        number -> plural
+    pelas
+        pelasgender -> feminine
+        number -> plural
+    pelo(a)
+        pelo(a)number -> singular
+    pelos(as)
+        pelos(as)number -> plural
+    por
+possArticle
+    seu
+        seugender -> masculine
+        number -> singular
+    sua
+        suagender -> feminine
+        number -> singular
+    seus
+        seusgender -> masculine
+        number -> plural
+    suas
+        suasgender -> feminine
+        number -> plural
+    seu(sua)
+        seu(sua)number -> singular
+    seus(suas)
+        seus(suas)number -> plural
+speak
+thatDemAdj
+    aquele
+        aquelegender -> masculine
+        number -> singular
+    aquela
+        aquelagender -> feminine
+        number -> singular
+    aqueles
+        aquelesgender -> masculine
+        number -> plural
+    aquelas
+        aquelasgender -> feminine
+        number -> plural
+    aquele(a)
+        aquele(a)number -> singular
+    aqueles(as)
+        aqueles(as)number -> plural
+thisDemAdj
+    esse
+        essegender -> masculine
+        number -> singular
+    essa
+        essagender -> feminine
+        number -> singular
+    esses
+        essesgender -> masculine
+        number -> plural
+    essas
+        essasgender -> feminine
+        number -> plural
+    esse(a)
+        esse(a)number -> singular
+    esses(as)
+        esses(as)number -> plural
+withAPrepArticle
+withDePrepArticle
+withDemAdj
+withEmPrepArticle
+withEmPrepIndefArticle
+withInDemAdj
+withInThatDemAdj
+withInThisDemAdj
+withOfDemAdj
+withOfThatDemAdj
+withOfThisDemAdj
+withPorPrepArticle
+withPossArticle
+withThatDemAdj
+withThisDemAdj
+Locale = pl
+===============================================
+getCategories
+===============================================
+animacy
+    animate
+    human
+    inanimate
+case
+    accusative
+    dative
+    genitive
+    instrumental
+    locative
+    nominative
+    vocative
+emphasis
+    stressed
+    unstressed
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adposition
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    possessive
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = nl
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+declension
+    declined
+    undeclined
+definiteness
+    definite
+    indefinite
+determination
+    dependent
+    independent
+emphasis
+    stressed
+    unstressed
+gender
+    feminine
+    masculine
+    neuter
+mood
+    imperative
+    indicative
+    subjunctive
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sizeness
+    diminutive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+type
+    compound
+    hyphenCompound
+    solo
+===============================================
+getFeatures
+===============================================
+defArticle
+    de
+    het
+indefArticle
+    een
+speak
+Locale = nb
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    genitive
+    nominative
+definiteness
+    definite
+    indefinite
+form
+    infinitive
+    participle
+gender
+    feminine
+    masculine
+    neuter
+mood
+    imperative
+    indicative
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+defArticle
+    den
+        dengender -> masculine
+        number -> singular
+    den
+        dengender -> feminine
+        number -> singular
+    det
+        detgender -> neuter
+        number -> singular
+    de
+        denumber -> plural
+demonArticle
+    denne
+        dennegender -> masculine
+        number -> singular
+    denne
+        dennegender -> feminine
+        number -> singular
+    dette
+        dettegender -> neuter
+        number -> singular
+    disse
+        dissenumber -> plural
+indefArticle
+    en
+        engender -> masculine
+        number -> singular
+    ei
+        eigender -> feminine
+        number -> singular
+    et
+        etgender -> neuter
+        number -> singular
+    flere
+        flerenumber -> plural
+interrogativeArticle
+    hvilken
+        hvilkengender -> masculine
+        number -> singular
+    hvilken
+        hvilkengender -> feminine
+        number -> singular
+    hvilket
+        hvilketgender -> neuter
+        number -> singular
+    hvilke
+        hvilkenumber -> plural
+possArticle
+    din
+        dingender -> masculine
+        number -> singular
+    di
+        digender -> feminine
+        number -> singular
+    ditt
+        dittgender -> neuter
+        number -> singular
+    dine
+        dinenumber -> plural
+speak
+withDemonArticle
+withInterrogativeArticle
+withPossArticle
+Locale = ms
+===============================================
+getCategories
+===============================================
+case
+    genitive
+    nominative
+clusivity
+    exclusive
+    inclusive
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+register
+    casual
+    formal
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+measure
+speak
+Locale = lt
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    instrumental
+    locative
+    nominative
+    vocative
+gender
+    feminine
+    masculine
+number
+    dual
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    possessive
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    iterative
+    past
+    present
+===============================================
+getFeatures
+===============================================
+speak
+Locale = ko
+===============================================
+getCategories
+===============================================
+adjectival
+    attributive
+    predicative
+case
+    accusative
+    comitative
+    genitive
+    instrumental
+    nominative
+    vocative
+clusivity
+    exclusive
+    inclusive
+gender
+    feminine
+    masculine
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+register
+    casual
+    formal
+sound
+    consonant-end
+    consonant-start
+    rieul-end
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+measure
+speak
+Locale = kk
+===============================================
+getCategories
+===============================================
+case
+    ablative
+    accusative
+    dative
+    genitive
+    instrumental
+    locative
+    nominative
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+register
+    casual
+    formal
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+speak
+Locale = ja
+===============================================
+getCategories
+===============================================
+gender
+    feminine
+    masculine
+    neuter
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+measure
+speak
+Locale = it
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+definiteness
+    definite
+    indefinite
+emphasis
+    stressed
+    unstressed
+form
+    gerund
+    infinitive
+    participle
+gender
+    feminine
+    masculine
+mood
+    conditional
+    imperative
+    indicative
+    subjunctive
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    complex-consonant-start
+    consonant-end
+    consonant-start
+    elision-vowel-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+aPrepArticle
+    alle 
+        alle gender -> feminine
+        number -> plural
+    agli 
+        agli gender -> masculine
+        number -> plural
+        sound -> complex-consonant-start
+    agli 
+        agli gender -> masculine
+        number -> plural
+        sound -> vowel-start
+    ai 
+        ai gender -> masculine
+        number -> plural
+    all’
+        all’sound -> elision-vowel-start
+    alla 
+        alla gender -> feminine
+        number -> singular
+    allo 
+        allo gender -> masculine
+        number -> singular
+        sound -> complex-consonant-start
+    al 
+        al gender -> masculine
+        number -> singular
+    a 
+    in 
+daPrepArticle
+    dalle 
+        dalle gender -> feminine
+        number -> plural
+    dagli 
+        dagli gender -> masculine
+        number -> plural
+        sound -> complex-consonant-start
+    dagli 
+        dagli gender -> masculine
+        number -> plural
+        sound -> vowel-start
+    dai 
+        dai gender -> masculine
+        number -> plural
+    dall’
+        dall’sound -> elision-vowel-start
+    dalla 
+        dalla gender -> feminine
+        number -> singular
+    dallo 
+        dallo gender -> masculine
+        number -> singular
+        sound -> complex-consonant-start
+    dal 
+        dal gender -> masculine
+        number -> singular
+    da 
+dePrepArticle
+    delle 
+        delle gender -> feminine
+        number -> plural
+    degli 
+        degli gender -> masculine
+        number -> plural
+        sound -> complex-consonant-start
+    degli 
+        degli gender -> masculine
+        number -> plural
+        sound -> vowel-start
+    dei 
+        dei gender -> masculine
+        number -> plural
+    dell’
+        dell’sound -> elision-vowel-start
+    della 
+        della gender -> feminine
+        number -> singular
+    dello 
+        dello gender -> masculine
+        number -> singular
+        sound -> complex-consonant-start
+    del 
+        del gender -> masculine
+        number -> singular
+    de 
+defArticle
+    le 
+        le gender -> feminine
+        number -> plural
+    gli 
+        gli gender -> masculine
+        number -> plural
+        sound -> complex-consonant-start
+    gli 
+        gli gender -> masculine
+        number -> plural
+        sound -> vowel-start
+    i 
+        i gender -> masculine
+        number -> plural
+    l’
+        l’sound -> elision-vowel-start
+    la 
+        la gender -> feminine
+        number -> singular
+    lo 
+        lo gender -> masculine
+        number -> singular
+        sound -> complex-consonant-start
+    il 
+        il gender -> masculine
+        number -> singular
+inPrepArticle
+    nelle 
+        nelle gender -> feminine
+        number -> plural
+    negli 
+        negli gender -> masculine
+        number -> plural
+        sound -> complex-consonant-start
+    negli 
+        negli gender -> masculine
+        number -> plural
+        sound -> vowel-start
+    nei 
+        nei gender -> masculine
+        number -> plural
+    nell’
+        nell’sound -> elision-vowel-start
+    nella 
+        nella gender -> feminine
+        number -> singular
+    nello 
+        nello gender -> masculine
+        number -> singular
+        sound -> complex-consonant-start
+    nel 
+        nel gender -> masculine
+        number -> singular
+    in 
+indefArticle
+    delle 
+        delle gender -> feminine
+        number -> plural
+    degli 
+        degli gender -> masculine
+        number -> plural
+        sound -> complex-consonant-start
+    degli 
+        degli gender -> masculine
+        number -> plural
+        sound -> vowel-start
+    dei 
+        dei gender -> masculine
+        number -> plural
+    un’
+        un’gender -> feminine
+        sound -> elision-vowel-start
+    una 
+        una gender -> feminine
+        number -> singular
+    uno 
+        uno gender -> masculine
+        number -> singular
+        sound -> complex-consonant-start
+    un 
+        un gender -> masculine
+        number -> singular
+speak
+suPrepArticle
+    sulle 
+        sulle gender -> feminine
+        number -> plural
+    sugli 
+        sugli gender -> masculine
+        number -> plural
+        sound -> complex-consonant-start
+    sugli 
+        sugli gender -> masculine
+        number -> plural
+        sound -> vowel-start
+    sui 
+        sui gender -> masculine
+        number -> plural
+    sull’
+        sull’sound -> elision-vowel-start
+    sulla 
+        sulla gender -> feminine
+        number -> singular
+    sullo 
+        sullo gender -> masculine
+        number -> singular
+        sound -> complex-consonant-start
+    sul 
+        sul gender -> masculine
+        number -> singular
+    su 
+withAPrepArticle
+withDaPrepArticle
+withDePrepArticle
+withInPrepArticle
+withSuPrepArticle
+Locale = is
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+definiteness
+    definite
+    indefinite
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+speak
+Locale = id
+===============================================
+getCategories
+===============================================
+case
+    genitive
+    nominative
+clusivity
+    exclusive
+    inclusive
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+register
+    casual
+    formal
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+measure
+speak
+Locale = hu
+===============================================
+getCategories
+===============================================
+case
+    ablative
+    accusative
+    adessive
+    allative
+    causal
+    dative
+    delative
+    elative
+    essive
+    illative
+    inessive
+    instrumental
+    nominative
+    sublative
+    superessive
+    terminative
+    translative
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+speak
+Locale = hr
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    instrumental
+    locative
+    nominative
+    vocative
+emphasis
+    stressed
+    unstressed
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = hi
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    direct
+    ergative
+    genitive
+    oblique
+gender
+    feminine
+    masculine
+number
+    plural
+    singular
+person
+    first
+    second
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+register
+    formal
+    high
+    informal
+    intimate
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = he
+===============================================
+getCategories
+===============================================
+case
+    genitive
+    nominative
+definiteness
+    construct
+    definite
+    indefinite
+form
+    infinitive
+    participle
+gender
+    feminine
+    masculine
+number
+    dual
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+speak
+withConditionalHyphen
+Locale = fr
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+definiteness
+    definite
+    indefinite
+form
+    infinitive
+    participle
+gender
+    feminine
+    masculine
+mood
+    conditional
+    imperative
+    indicative
+    subjunctive
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    disjunctive
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+aPrepArticle
+    à l’
+        à l’number -> singular
+        sound -> vowel-start
+    au 
+        au gender -> masculine
+        number -> singular
+    à la 
+        à la gender -> feminine
+        number -> singular
+    aux 
+        aux number -> plural
+    à 
+dePrep
+    d’
+        d’sound -> vowel-start
+    de 
+        de sound -> consonant-start
+    
+dePrepArticle
+    de l’
+        de l’number -> singular
+        sound -> vowel-start
+    du 
+        du gender -> masculine
+        number -> singular
+    de la 
+        de la gender -> feminine
+        number -> singular
+    des 
+        des number -> plural
+    d’
+        d’sound -> vowel-start
+    de 
+defArticle
+    l’
+        l’number -> singular
+        sound -> vowel-start
+    le 
+        le gender -> masculine
+        number -> singular
+    la 
+        la gender -> feminine
+        number -> singular
+    les 
+        les number -> plural
+    
+demonArticle
+    cet
+        cetgender -> masculine
+        number -> singular
+        sound -> vowel-start
+    ce
+        cegender -> masculine
+        number -> singular
+    cette
+        cettegender -> feminine
+        number -> singular
+    ces
+        cesnumber -> plural
+    
+genitiveArticle
+    de l’
+        de l’number -> singular
+        sound -> vowel-start
+    de 
+        de gender -> masculine
+        number -> singular
+    de la 
+        de la gender -> feminine
+        number -> singular
+    les 
+        les number -> plural
+    de 
+indefArticle
+    un
+        ungender -> masculine
+        number -> singular
+    une
+        unegender -> feminine
+        number -> singular
+    des
+        desnumber -> plural
+    
+que
+    qu’
+        qu’sound -> vowel-start
+    que 
+        que sound -> consonant-start
+    
+speak
+withAPrepArticle
+withDePrep
+withDePrepArticle
+withDemonArticle
+withGenitiveArticle
+withQue
+Locale = fi
+===============================================
+getCategories
+===============================================
+animacy
+    animate
+    inanimate
+case
+    abessive
+    ablative
+    adessive
+    allative
+    elative
+    essive
+    genitive
+    illative
+    inessive
+    nominative
+    partitive
+    translative
+locative
+    inner
+    outer
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    past
+    present
+===============================================
+getFeatures
+===============================================
+speak
+Locale = et
+===============================================
+getCategories
+===============================================
+animacy
+    animate
+    inanimate
+case
+    abessive
+    ablative
+    accusative
+    adessive
+    allative
+    comitative
+    elative
+    essive
+    genitive
+    illative
+    inessive
+    nominative
+    partitive
+    terminative
+    translative
+emphasis
+    stressed
+    unstressed
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+register
+    casual
+    formal
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    past
+    present
+===============================================
+getFeatures
+===============================================
+speak
+Locale = es
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+    prepositional
+definiteness
+    definite
+    indefinite
+determination
+    dependent
+    independent
+form
+    gerund
+    infinitive
+    participle
+gender
+    feminine
+    masculine
+    neuter
+mood
+    imperative
+    indicative
+    subjunctive
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+register
+    casual
+    formal
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+aPrepArticle
+    al
+        algender -> masculine
+        number -> singular
+    a la
+        a lagender -> feminine
+        number -> singular
+    a los
+        a losgender -> masculine
+        number -> plural
+    a las
+        a lasgender -> feminine
+        number -> plural
+    a
+dePrepArticle
+    del
+        delgender -> masculine
+        number -> singular
+    de la
+        de lagender -> feminine
+        number -> singular
+    de los
+        de losgender -> masculine
+        number -> plural
+    de las
+        de lasgender -> feminine
+        number -> plural
+    de
+defArticle
+    el
+        elgender -> masculine
+        number -> singular
+    la
+        lagender -> feminine
+        number -> singular
+    los
+        losgender -> masculine
+        number -> plural
+    las
+        lasgender -> feminine
+        number -> plural
+    
+demAdj
+    este
+        estegender -> masculine
+        number -> singular
+    esta
+        estagender -> feminine
+        number -> singular
+    estos
+        estosgender -> masculine
+        number -> plural
+    estas
+        estasgender -> feminine
+        number -> plural
+indefArticle
+    un
+        ungender -> masculine
+        number -> singular
+    una
+        unagender -> feminine
+        number -> singular
+    unos
+        unosgender -> masculine
+        number -> plural
+    unas
+        unasgender -> feminine
+        number -> plural
+speak
+withAPrepArticle
+withDePrepArticle
+withDemAdj
+Locale = en
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    genitive
+    nominative
+definiteness
+    definite
+    indefinite
+determination
+    dependent
+    independent
+form
+    gerund
+    infinitive
+    participle
+gender
+    common
+    feminine
+    masculine
+    neuter
+mood
+    conditional
+    imperative
+    indicative
+    subjunctive
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+defArticle
+    the
+indefArticle
+    a
+    an
+speak
+Locale = el
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+emphasis
+    stressed
+    unstressed
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = de
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+declension
+    mixed
+    strong
+    weak
+definiteness
+    definite
+    indefinite
+determination
+    dependent
+    independent
+form
+    infinitive
+    participle
+gender
+    feminine
+    masculine
+    neuter
+mood
+    imperative
+    indicative
+    subjunctive
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+defArticle
+defArticleInPreposition
+demonArticle
+indefArticle
+interrogativeArticle
+negArticle
+possArticle
+possessivePronoun
+pronoun
+speak
+stem
+withDefArticleInPreposition
+withDemonArticle
+withInterrogativeArticle
+withNegArticle
+withPossArticle
+withPossessivePronoun
+withPronoun
+Locale = da
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    genitive
+    nominative
+definiteness
+    definite
+    indefinite
+form
+    infinitive
+    participle
+gender
+    common
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+defArticle
+    den
+        dengender -> common
+        number -> singular
+    det
+        detgender -> neuter
+        number -> singular
+    de
+        denumber -> plural
+demonArticle
+    denne
+        dennegender -> common
+        number -> singular
+    dette
+        dettegender -> neuter
+        number -> singular
+    disse
+        dissenumber -> plural
+indefArticle
+    en
+        engender -> common
+        number -> singular
+    et
+        etgender -> neuter
+        number -> singular
+    flere
+        flerenumber -> plural
+indefPron
+    nogen
+        nogengender -> common
+        number -> singular
+    noget
+        nogetgender -> neuter
+        number -> singular
+    nogle
+        noglenumber -> plural
+interrogativeArticle
+    hvilken
+        hvilkengender -> common
+        number -> singular
+    hvilket
+        hvilketgender -> neuter
+        number -> singular
+    hvilke
+        hvilkenumber -> plural
+negArticle
+    intet
+        intetgender -> neuter
+        number -> singular
+    ingen
+newArticle
+    ny
+        nygender -> common
+        number -> singular
+    nyt
+        nytgender -> neuter
+        number -> singular
+    nye
+        nyenumber -> plural
+otherArticle
+    anden
+        andengender -> common
+        number -> singular
+    andet
+        andetgender -> neuter
+        number -> singular
+    andre
+        andrenumber -> plural
+possArticle
+    din
+        dingender -> common
+        number -> singular
+    dit
+        ditgender -> neuter
+        number -> singular
+    dine
+        dinenumber -> plural
+speak
+withDefArticle
+withDemonArticle
+withIndefArticle
+withIndefPron
+withInterrogativeArticle
+withNegArticle
+withNewArticle
+withOtherArticle
+withPossArticle
+Locale = cs
+===============================================
+getCategories
+===============================================
+animacy
+    animate
+    inanimate
+case
+    accusative
+    dative
+    genitive
+    instrumental
+    locative
+    nominative
+    vocative
+emphasis
+    stressed
+    unstressed
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adposition
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    possessive
+    reflexive
+register
+    casual
+    formal
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = ca
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+definiteness
+    definite
+    indefinite
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adposition
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+position
+    enclitic
+    proclitic
+pronounType
+    personal
+    reflexive
+register
+    casual
+    formal
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = bg
+===============================================
+getCategories
+===============================================
+case
+    accusative
+    dative
+    genitive
+    nominative
+    vocative
+definiteness
+    definite
+    indefinite
+emphasis
+    stressed
+    unstressed
+gender
+    feminine
+    masculine
+    neuter
+number
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
+Locale = ar
+===============================================
+getCategories
+===============================================
+animacy
+    human
+    nonhuman
+case
+    accusative
+    genitive
+    nominative
+definiteness
+    construct
+    definite
+    indefinite
+gender
+    feminine
+    masculine
+genderPronoun
+    feminine
+    masculine
+mood
+    imperative
+    indicative
+    jussive
+    subjunctive
+number
+    dual
+    plural
+    singular
+numberPronoun
+    dual
+    plural
+    singular
+person
+    first
+    second
+    third
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+pronounType
+    personal
+    reflexive
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+tense
+    future
+    past
+    present
+===============================================
+getFeatures
+===============================================
+reflexivePron
+speak
+withAndPrep
+withAsPrep
+withPossessivePron
+withToPrep
+withWithPrep
+Locale = 
+===============================================
+getCategories
+===============================================
+pos
+    abbreviation
+    adjective
+    adverb
+    conjunction
+    interjection
+    noun
+    numeral
+    particle
+    pronoun
+    proper-noun
+    verb
+sound
+    consonant-end
+    consonant-start
+    vowel-end
+    vowel-start
+===============================================
+getFeatures
+===============================================
+speak
