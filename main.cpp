@@ -107,8 +107,10 @@ int main() {
                     .build();
     UParseError pe;
     MessageFormatter mf = MessageFormatter::Builder(errorCode)
-                .setLocale(Locale::forLanguageTag("es-MX", errorCode))
                 .setFunctionRegistry(customRegistry)
+                .setLocale(Locale::forLanguageTag("es-MX", errorCode))
+                // Copy from
+                // https://github.com/unicode-org/inflection/blob/main/inflection/test/resources/inflection/dialog/inflection/es.xml#L120C77-L120C81
                 .setPattern("Cartea {$owner :inflection hello=world definiteness=definite number=plural gender=feminine}", pe, errorCode)
                 .build(errorCode);
 
