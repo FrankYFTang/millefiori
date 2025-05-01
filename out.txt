@@ -3032,3 +3032,56 @@ sound
 getFeatures
 ===============================================
 speak
+Input:  toquera
+
+---------------------------------------------------------------------Feature: case
+[accusative]:	toquera
+[dative]:	toquera
+[genitive]:	toquera
+[nominative]:	toquera
+[prepositional]:	toquera
+
+---------------------------------------------------------------------Feature: definiteness
+[definite]:	la toquera
+[indefinite]:	una toquera
+
+---------------------------------------------------------------------Feature: determination
+[dependent]:	toquera
+[independent]:	toquera
+
+---------------------------------------------------------------------Feature: form
+[gerund]:	toquera
+[infinitive]:	toquera
+[participle]:	toquera
+
+---------------------------------------------------------------------Feature: gender
+[feminine]:	toquera
+[masculine]:	toquero
+[neuter]:	toquera
+
+---------------------------------------------------------------------Feature: mood
+[imperative]:	toquera
+[indicative]:	toquera
+[subjunctive]:	toquera
+
+---------------------------------------------------------------------Feature: number
+[plural]:	toqueras
+[singular]:	toquera
+
+---------------------------------------------------------------------Feature: person
+[first]:	toquera
+[second]:	toquera
+[third]:	toquera
+
+---------------------------------------------------------------------Feature: pronounType
+[personal]:	toquera
+[reflexive]:	toquera
+
+---------------------------------------------------------------------Feature: register
+[casual]:	toquera
+[formal]:	toquera
+
+---------------------------------------------------------------------Feature: tense
+[future]:	toquera
+[past]:	toquera
+[present]:	toquera

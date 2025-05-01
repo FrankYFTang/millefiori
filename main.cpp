@@ -1,6 +1,9 @@
 #include <iostream>
 
+#include "inflection/dialog/InflectableStringConcept.hpp"
 #include "inflection/dialog/LocalizedCommonConceptFactoryProvider.hpp"
+#include "inflection/dialog/SemanticFeatureModel.hpp"
+#include "inflection/dialog/SpeakableString.hpp"
 #include "inflection/lang/features/LanguageGrammarFeatures.hpp"
 #include "inflection/util/ULocale.hpp"
 
@@ -185,8 +188,68 @@ for (const auto& locale : ::inflection::lang::features::LanguageGrammarFeatures:
 
 
 }
-    auto model = ::inflection::dialog::LocalizedCommonConceptFactoryProvider::getDefaultCommonConceptFactoryProvider()->getCommonConceptFactory(inflection::util::ULocale("es-MX"))->getSemanticFeatureModel();
 
+    inflection::util::ULocale locale("es-MX");
+    auto model = ::inflection::dialog::LocalizedCommonConceptFactoryProvider::getDefaultCommonConceptFactoryProvider()->getCommonConceptFactory(locale)->getSemanticFeatureModel();
+
+
+    inflection::dialog::SpeakableString input(u"toquera");
+    inflection::dialog::InflectableStringConcept stringConcept(model, input);
+    utf8.clear();
+    std::cout << "Input:  "
+              << UnicodeString(input.getPrint()).toUTF8String<std::string>(utf8).c_str()
+              << std::endl;
+
+
+        auto features = ::inflection::lang::features::LanguageGrammarFeatures::getLanguageGrammarFeatures(locale);
+        ::std::vector<inflection::dialog::SemanticFeature> constraints;
+        ::std::vector<inflection::dialog::SemanticFeature> semanticFeatures;
+        bool hasDisplayFunction = model->getDefaultDisplayFunction() != nullptr;
+        for (const auto& [featureName, grammarCategory] : features.getCategories()) {
+            if (featureName != u"pos" && featureName != u"sound" && grammarCategory.isUniqueValues()) {
+                if (hasDisplayFunction) {
+                    auto constraint = *(model->getFeature(featureName));
+    utf8.clear();
+    std::cout << std::endl
+              << "---------------------------------------------------------------------"
+              << "Feature: "
+              << UnicodeString(featureName).toUTF8String<std::string>(utf8).c_str()
+              << std::endl;
+
+                    for (const auto& semanticValue : constraint.getBoundedValues()) {
+
+    utf8.clear();
+    std::cout << "["
+              << UnicodeString(semanticValue).toUTF8String<std::string>(utf8).c_str()
+              << "]:\t";
+
+                        stringConcept.putConstraint(constraint, semanticValue);
+
+    utf8.clear();
+    std::cout << UnicodeString(stringConcept.toSpeakableString()->getPrint()).toUTF8String<std::string>(utf8).c_str()
+              << std::endl;
+
+                        stringConcept.clearConstraint(constraint);
+                    }
+
+                }
+                // Can we query the value for gender, number, case or something like that?
+                auto semanticFeature = model->getFeature(featureName);
+                if (model->getDefaultFeatureFunction(*(semanticFeature)) != nullptr) {
+                    semanticFeatures.push_back(*(semanticFeature));
+                }
+            }
+            // else we don't support inflecting these other types, or they aren't interesting.
+        }
+        for (const auto& feature : features.getFeatures()) {
+            auto semanticFeature = model->getFeature(feature.getName());
+            if (model->getDefaultFeatureFunction(*(semanticFeature)) != nullptr) {
+                semanticFeatures.push_back(*(semanticFeature));
+            }
+            // else we don't support inflecting with this semantic feature.
+        }
+
+    // stringConcept.putConstraint(constraint, semanticValue);
     return 0;
 }
 
