@@ -187,26 +187,22 @@ int main() {
     std::string utf8;
     std::cout << ret.toUTF8String<std::string>(utf8).c_str() << std::endl;
  
-    std::cout << "hi" << std::endl;
-    std::cout << errorCode << std::endl;
     MessageFormatter mf2 = MessageFormatter::Builder(errorCode)
                 .setFunctionRegistry(customRegistry)
                 .setLocale(Locale::forLanguageTag("es-MX", errorCode))
                 .setPattern(".local $var1 = {$name :inflection feature=gender} \
                              .local $var2 = {$name :inflection feature=number} \
                              .match $var1 $var2\
-                             masculine singular {{ Masculine 0 {$name}}} \
-                             masculine 2 {{ Masculine 1}} \
-                             feminine singular {{ Feminine 2}} \
-                             foo  4 {{ foo bar}} \
-                             hello singular {{ hello $name}} \
-                             * * {{other }}\n",
+                             masculine 2 {{ Masculine 2 {$name} }} \
+                             feminine singular {{ Feminine singular {$name} }} \
+                             foo 4 {{ foo 4 {$name} }} \
+                             masculine singular {{ Masculine singular {$name}}} \
+                             hello singular {{ hello singular {$name}}} \
+                             * * {{other {$name} }}\n",
                              pe, errorCode)
                 .build(errorCode);
-    std::cout << errorCode << std::endl;
     ret = mf2.formatToString(MessageArguments(arguments, errorCode), errorCode);
-    std::cout << errorCode << std::endl;
     utf8.clear();
     std::cout << ret.toUTF8String<std::string>(utf8).c_str() << std::endl;
-    std::cout << errorCode << std::endl;
+    //  output "Masculine singular gato"
 }
