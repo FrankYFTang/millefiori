@@ -37,8 +37,10 @@ int main() {
     arguments["name"]= Formattable("gato");
 
     auto customRegistry = MFFunctionRegistry::Builder(errorCode)
-                    .adoptFormatter(FunctionName("inflection"), inflection::message2::createFormatterFactory(), errorCode)
-                    .adoptSelector(FunctionName("inflection"), inflection::message2::createSelectorFactory(), errorCode)
+                    .adoptFormatter(FunctionName("inflection"),
+                                    inflection::message2::MF2Factory::CreateFormatterFactory(), errorCode)
+                    .adoptSelector(FunctionName("inflection"),
+                                   inflection::message2::MF2Factory::CreateSelectorFactory(), errorCode)
                     .build();
     UParseError pe;
     MessageFormatter mf = MessageFormatter::Builder(errorCode)
